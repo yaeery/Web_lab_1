@@ -1,0 +1,95 @@
+:root 
+{
+    --main-color: #ff0000;
+}
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: radial-gradient(blue,var(--main-color));
+}
+.count-input {
+	width:10%;
+	display: inline;
+}
+
+.add-to-basket-block {
+	margin-top: 7px;
+}
+
+
+.modal-image {
+	width: 100%;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;/*/////////////////////////////////////////////////////////// */
+    background: linear-gradient(white,#aaaaaa);
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+.amount{
+    display: inline;
+}
+.product{
+    display: inline;
+}
+.remove-from-cart{
+    display: inline;
+}
+footer {
+    margin: 50px 0;
+}
+.lead
+{
+    font-size: 500%;
+}
+.column
+{
+    counter-increment: --main-color+1;
+}
+#name_Shop
+{
+    margin-left: -40%
+}
+#bs-example-navbar-collapse-1
+{
+    margin-left: 70%;
+}
+#Shop_header
+{
+    color: #ffffffff;
+}

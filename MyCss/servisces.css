@@ -1,0 +1,48 @@
+:root 
+{
+    --main-color_services: ;
+}
+#Description
+{
+    font-size: 200%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+body{
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+       background: radial-gradient(blue,var(--main-color_services));
+       width: 100%;
+   }
+   #disc_opis
+   {
+       margin-left: auto;
+       margin-right: auto;
+       width: 70%;
+       font-size: 200%;
+   }
+   #adress_opis_div
+   {
+       padding-top: 4%;
+       margin-left: auto;
+       margin-right: auto;
+       width: 70%;
+       font-size: 180%;
+   }
+   #adress_opis_txt
+   {
+   
+       text-align: center;
+   }
+   #map
+   {
+    position: relative;
+text-align: center;
+width: 50%;
+margin-left: 25%
+   }
+#map_div
+{
+    margin: auto;
+}

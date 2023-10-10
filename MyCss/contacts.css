@@ -1,0 +1,42 @@
+:root 
+{
+    --main-color_contacts: ;
+}
+#Description
+{
+    font-size: 150%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+body{
+ /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: radial-gradient(blue,var(--main-color_contacts));
+    width: 100%;
+}
+#disc_opis
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-size: 200%;
+}
+#adress_opis_div
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-size: 180%;
+    float: right;
+}
+#adress_opis_txt
+{
+
+    text-align: center;
+}
+#mini_text
+{
+    font-size: 100%;
+    text-align: center;
+}

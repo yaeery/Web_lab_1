@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Shop</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script src="js/shop.js"></script>
+</head>
+
+<body>
+  <script src="js/color.js"></script>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" id="Shop_header">𐌊𐌵𐌁𐌉𐌊.𐌐𐌵</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="html/about.html">О нас</a>
+                    </li>
+                    <li>
+                        <a href="html/services.html">Адрес</a>
+                    </li>
+                    <li>
+                        <a href="html/contacts.html">Контакты</a>
+                    </li>
+                    <li>
+                      <a href="" class="cart-link" data-toggle="modal" data-target="#Cart"> Корзина </a> 
+                  </li>
+					
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <p  class="lead">𐌊𐌵𐌁𐌉𐌊.𐌐𐌵</p>
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="slide-image" src="img/800x300(1).jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="img/800x300(2).jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="img/800x300(3).jpg" alt="">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img/goods/320x150(1).jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">₽340</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#FirstGoodModal">QiYi MoFangGe 3x3x3</a>
+                                </h4>
+                                <p>Нестареющая классика</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img/goods/320x150(2).jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">₽829</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#SecondGoodModal">ShengShou Skewb</a>
+                                </h4>
+                                <p>Что-то новенькое</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">12 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img/goods/320x150(3).jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">₽1500</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#ThirdGoodModal">ShengShou Pyraminx</a>
+                                </h4>
+                                <p>Прямиком из Египта</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">31 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img/goods/320x150(4).jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">₽640</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#FourthGoodModal">Gan Megaminx</a>
+                                </h4>
+                                <p>Хит продаж</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">6 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="img/goods/320x150(5).jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">₽1334</h4>
+                                <h4><a href="" data-toggle="modal" data-target="#FifthGoodModal">QiYi MoFangGe 2x2x2</a>
+                                </h4>
+                                <p>Послендняя модель</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">18 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+	
+	<div class="modal fade" id="FirstGoodModal">
+  <div class="modal-dialog">
+    <div style="background-color: gray;"   class="modal-content">
+      <div style="background-color: gray;" class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">QiYi MoFangGe 3x3x3</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(1).jpg">
+        <p>Обновление легенды, вторая версия великого тандерклэпа. QiYi MoFangGe 3x3x3 Thunderclap v2 стал воистину лучше своего предшественника: больше скорости, больше контроля, больше углорез. Хоть это и куб из средней ценовой категории, он вполне сравним с кубами из дорогого сегмента. &hellip;</p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-1"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="SecondGoodModal">
+  <div class="modal-dialog">
+    <div style="background-color: gray;"  class="modal-content">
+      <div style="background-color: gray;"  class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">ShengShou Skewb</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(2).jpg" style="width: 225px; height: 225px;">
+        <p>Самый первый скьюб от популярного производителя головоломок ShengShou. Skewb - необычная и очень интересная головоломка, не похожая на классический кубик Рубика. Вращение элементов головоломки идет вокруг 4 осей, которые соединяют противоположные вершины кубика. ShengShou Skewb крутится мягко и без заеданий и в свое время был одним из лучших в своей категории. Сейчас актуальность ШенгШоу Скьюб пропадает, но это все еще неплохой вариант для новичка, который только начинает обучаться данной дисциплине. &hellip;</p> 
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-2"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+	<div class="modal fade" id="ThirdGoodModal">
+  <div class="modal-dialog">
+    <div style="background-color: gray;"  class="modal-content">
+      <div style="background-color: gray;"  class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">ShengShou Pyraminx</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(3).jpg">
+        <p>Пирамидка от всеми известной компании ShengShou имеет прекрасное плавное кручение, которое обеспечивается шариковыми подшипниками со встроенной пружиной. Эту пирамидку можно рассматривать как бюджетный вариант, однако многие топовые куберы до сих пор собирают именно ей. У нее есть продолжение в виде ShengShou Pyraminx Aurora. А ШенгШоу Пираминкс показала нам, как должна выглядеть качественная и неплохая пирамидка. ShengShou Pyraminx с запасом подойдёт для только знакомящихся с головоломками, основанных на тетраэдрах. &hellip;</p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-3"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="FourthGoodModal">
+  <div style="background-color: gray;"  class="modal-dialog">
+    <div style="background-color: gray;"  class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Gan Megaminx</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(4).jpg" style="width: 225px; height: 225px;">
+        <p>На каждом из угловых элементов есть небольшие углубления для пальцев. Они нужны, чтобы легче держать головоломку, так она не выскальзывает. А еще здесь используется матовая поверхность пластика. Это неожиданное решение, поскольку не все спидкуберы одобряют матовые кубы.
+          Крутится пазл фантастически: быстрый, мягкий, контролируемый. Он ничуть не хуже мегаминкса от X-Man. Сменными гайками вы можете преобразовать кручение, сделать головоломку мягче и быстрее или жестче и более контролируемой. &hellip;</p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-4"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="FifthGoodModal">
+  <div class="modal-dialog">
+    <div style="background-color: gray;"  class="modal-content">
+      <div style="background-color: gray;"  class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">QiYi MoFangGe 2x2x2</h4>
+      </div>
+      <div class="modal-body">
+	  <img src="img/goods/320x150(5).jpg">
+        <p>QiYi MoFangGe 2x2x2  является магнитной модификацией отличной двушки QiYi WuXia. Внутри каждой детали имеются специальные углубления для магнитов, благодаря чему все они установлены точно на своих местах. Такое уникальное строение обеспечивает кубику превосходный контроль и точность движений. Как и стандартная версия, головоломка крутится очень быстро, а магниты только подчеркивают это. Чии Мофанг 2x2x2 Вуксиа М может стать прекрасным приобретением для тех, кто предпочитает быстрые и при этом контролируемые кубы &hellip;</p>
+		<button class="btn-primary add-to-busket-btn"><span class="glyphicon glyphicon-shopping-cart"></span> add to cart </button>
+		<div class="add-to-busket-block">
+			<button class="btn-primary btn-minus">-</button>
+			<input class="form-control count-input" />
+			<button class="btn-primary btn-plus">+</button>
+			<button class="btn-success"><span class="glyphicon glyphicon-ok ok-5"></span></button>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	<div class="modal fade" id="Cart">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Cart</h4>
+      </div>
+      <div class="modal-body cart-body">
+	
+      </div>
+      <div class="modal-footer">
+	  		<button type="button" class="btn btn-default btn-close" OnClick="clearCart(); $('.cart-body').html('');"> Clear cart </button>
+        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary btn-order">Order</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+    
+
+</body>
+
+</html>
